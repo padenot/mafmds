@@ -1,0 +1,13 @@
+[package]
+name = "redw"
+version = "0.1.0"
+authors = ["Paul Adenot <paul@paul.cx>"]
+edition = "2018"
+
+[dependencies]
+monome-rs = { path = "../monome-rs/" }
+cubeb = "0.5.4"
+audio-clock = "0.2"
+sample = "0.10.0"
+crossbeam = "0.7"
+musical_scales = { git = "https://github.com/padenot/musical_scales" }
